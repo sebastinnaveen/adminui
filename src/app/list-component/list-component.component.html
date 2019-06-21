@@ -1,3 +1,25 @@
-<p>
-  list-component works!
-</p>
+<div class="col-md-6">
+  <h2> Admin List</h2>
+  
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th class="hidden">Id</th>
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>Email</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr >
+      <td class="hidden">1</td>
+      <td>sebastin</td>
+      <td>naveen</td>
+      <td>test@naveen.com</td>
+      <td><button class="btn btn-danger" (click)="deleteUser(user)"> Upload dataset</button>
+        <button class="btn btn-danger" (click)="editUser(user)" style="margin-left: 20px;"> Edit</button></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
